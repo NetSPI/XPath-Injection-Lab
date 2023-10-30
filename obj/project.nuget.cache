@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jbyc4bYdKvS4DDwHvDI6I6CXx419qRDle+5iltjduPO9mkx7zHdPykcZ4iDVcR+XfMDuClYr/rUtI4PxWOnhIQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jkarnes\\source\\repos\\BookSearchApp\\BookSearchApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jkarnes\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}

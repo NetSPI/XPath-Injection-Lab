@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Find a Book</h2>
+<form id="bookForm">
+    <select id="bookTitle">
+        @foreach(var title in ViewBag.BookTitles as List<string>)
+        {
+            <option value="@title">@title</option>
+        }
+    </select>
+    <button type="submit">Find</button>
+</form>
+
+<div id="result"></div>
+
+@section Scripts {
+    <script src="~/js/bookFinder.js"></script>
+}
