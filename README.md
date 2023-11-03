@@ -12,7 +12,7 @@ Below provided some basic steps for setting up a vulnerable lab instance that ca
 
 ``docker run -p 8888:80 bookapp``
 
-**Tip: We recommend yourself with how to work with login operators attempting this lab.**
+**Tip: We recommend that you brainstorm on how logic operators work before attempting this lab.**
 
 After hosting the vulnerable application, configure your browser to use an intercepting web proxy (like Burp Suite), and navigate to http://localhost:8888. Click on the “Find” button, as shown in the below screenshot, and intercept the request in your proxy. Satrt exploring XPath Injection in "title" paramter value. 
 
